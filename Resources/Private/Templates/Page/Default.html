@@ -1,24 +1,25 @@
 <f:layout name="Default" />
 <f:section name="Main">
 
-    <div style="background-color: yellow; padding: 0.5em 1em;">
-        <dl>
-            <dt>Template file</dt>
-            <dd>
-                <code>typo3conf/ext/site_package_basics/Resources/Private/Templates/Page/Default.html</code>
-            </dd>
-            <dt>Backend Configuration</dt>
-            <dd>
-                <code>typo3conf/ext/site_package_basics/Configuration/PageTS/Mod/WebLayout/BackendLayouts/default.txt</code>
-            </dd>
-            <dt>TypoScript</dt>
-            <dd>
-                <code>page.10.templateName.stdWrap.cObject.pagets__site_package_basics_default = TEXT</code><br>
-                <code>page.10.templateName.stdWrap.cObject.pagets__site_package_basics_default.value = Default</code>
-            </dd>
-        </dl>
+    <div class="container-fluid text-center">
+      <div class="row content">
+        <div class="col-sm-2 sidenav">
+          <p><a href="#">Link</a></p>
+          <p><a href="#">Link</a></p>
+          <p><a href="#">Link</a></p>
+        </div>
+        <div class="col-sm-8 text-left">
+            <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '0'}" />
+        </div>
+        <div class="col-sm-2 sidenav">
+          <div class="well">
+            <p>ADS</p>
+          </div>
+          <div class="well">
+            <p>ADS</p>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <f:cObject typoscriptObjectPath="lib.dynamicContent" data="{colPos: '0'}" />
 
 </f:section>
