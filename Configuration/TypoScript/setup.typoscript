@@ -28,6 +28,9 @@ page {
             pagets__site_package_basics_default = TEXT
             pagets__site_package_basics_default.value = Default
 
+            pagets__site_package_basics_left_content_right = TEXT
+            pagets__site_package_basics_left_content_right.value = LeftContentRight
+
             default = TEXT
             default.value = Default
         }

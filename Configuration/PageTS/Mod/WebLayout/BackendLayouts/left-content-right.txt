@@ -1,0 +1,30 @@
+mod.web_layout.BackendLayouts {
+  site_package_basics_left_content_right {
+    title = Left, Content, Right
+    icon = EXT:site_package_basics/Resources/Public/Images/BackendLayouts/default.png
+    config {
+      backend_layout {
+        colCount = 3
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Left
+                colPos = 1
+              }
+              2 {
+                name = Content
+                colPos = 0
+              }
+              3 {
+                name = Right
+                colPos = 2
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
