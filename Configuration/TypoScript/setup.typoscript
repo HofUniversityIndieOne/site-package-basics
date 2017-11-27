@@ -127,7 +127,7 @@ page {
     }
 
     includeCSS {
-        site_package_basics_layout = EXT:site_package_basics/Resources/Public/Css/layout.min.css
+        site_package_basics_layout = EXT:site_package_basics/Resources/Public/Css/layout.css
     }
 
     includeJSLibs {
