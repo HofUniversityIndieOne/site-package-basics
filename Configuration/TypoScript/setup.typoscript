@@ -123,7 +123,7 @@ page {
     }
 
     includeCSSLibs {
-        bootstrap = EXT:site_package_basics/Resources/Public/Css/bootstrap.min.css
+        bootstrap = EXT:site_package_basics/Resources/Public/Bootstrap/css/bootstrap.css
     }
 
     includeCSS {
