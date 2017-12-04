@@ -53,4 +53,7 @@ config {
     prefixLocalAnchors = all
     headerComment = build by sitepackagebuilder.com
     sendCacheHeaders = 1
+
+    # cat=site_package_basics; type=int+; label=Login Page Id
+    typolinkLinkAccessRestrictedPages =
 }

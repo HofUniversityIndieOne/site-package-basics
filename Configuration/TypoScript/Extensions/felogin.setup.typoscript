@@ -1,0 +1,5 @@
+plugin.tx_felogin_pi1 {
+    # copied content from
+    # vendor/typo3/cms/typo3/sysext/felogin/Resources/Private/Templates/FrontendLogin.html
+    templateFile = EXT:site_package_basics/Resources/Private/Extensions/felogin/FrontendLogin.html
+}

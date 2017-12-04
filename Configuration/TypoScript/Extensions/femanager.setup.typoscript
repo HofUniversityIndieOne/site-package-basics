@@ -1,0 +1,20 @@
+plugin.tx_femanager.settings {
+    new {
+        fillEmailWithUsername = 1
+        validation {
+            # remove validation for username (it's not used)
+            username >
+            # define password characteristics
+            password {
+              min = 8
+              mustInclude = number,letter
+            }
+        }
+        # redirects to page id 13 after registration mail has been sent
+        # @todo rather use a constant or environment variable here
+        requestRedirect = TEXT
+        requestRedirect {
+            value = 13
+        }
+    }
+}

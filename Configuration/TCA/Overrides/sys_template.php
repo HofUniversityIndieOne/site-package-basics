@@ -16,4 +16,12 @@ call_user_func(function()
         'Configuration/TypoScript',
         'Site Package Basics'
     );
+    /**
+     * Extensions TypoScript for SitePackageBasics
+     */
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
+        $extensionKey,
+        'Configuration/TypoScript/Extensions',
+        'Adjust Extensions'
+    );
 });

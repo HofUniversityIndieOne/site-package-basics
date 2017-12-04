@@ -1,0 +1,2 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:site_package_basics/Configuration/TypoScript/Extensions/felogin.setup.typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:site_package_basics/Configuration/TypoScript/Extensions/femanager.setup.typoscript">

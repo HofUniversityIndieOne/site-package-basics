@@ -183,4 +183,7 @@ config {
     compressCss = 0
     concatenateJs = 0
     concatenateCss = 0
+
+    typolinkLinkAccessRestrictedPages = {$config.typolinkLinkAccessRestrictedPages}
+    typolinkLinkAccessRestrictedPages_addParams = &return_url=###RETURN_URL###
 }
