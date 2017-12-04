@@ -50,13 +50,18 @@
 <form action="###ACTION_URI###" target="_top" method="post" onsubmit="###ON_SUBMIT###">
 	<fieldset>
 	<legend>###LEGEND###</legend>
-	<div>
-		<label for="user">###USERNAME_LABEL###</label>
-		<input type="text" id="user" name="user" value="" />
+
+	<div class="input-group">
+		<span class="input-group-addon" id="felogin-addon-user">
+			<span class="glyphicon glyphicon-user"></span>
+		</span>
+		<input type="text" id="user" name="user" value="" class="form-control" aria-describedby="felogin-addon-user" />
 	</div>
-	<div>
-		<label for="pass">###PASSWORD_LABEL###</label>
-		<input type="password" id="pass" name="pass" value="" data-rsa-encryption="" />
+	<div class="input-group">
+		<span class="input-group-addon" id="felogin-addon-password">
+			<span class="glyphicon glyphicon-fire"></span>
+		</span>
+		<input type="password" id="pass" name="pass" value="" class="form-control" aria-describedby="felogin-addon-password" data-rsa-encryption="" />
 	</div>
 
 	<!--###PERMALOGIN_VALID###-->
@@ -68,7 +73,7 @@
 	<!--###PERMALOGIN_VALID###-->
 
 	<div>
-		<input type="submit" name="submit" value="###LOGIN_LABEL###" />
+		<input type="submit" name="submit" value="###LOGIN_LABEL###" class="btn btn-info" />
 	</div>
 
 	<div class="felogin-hidden">
