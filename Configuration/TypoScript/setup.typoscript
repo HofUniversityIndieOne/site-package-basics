@@ -184,6 +184,9 @@ config {
     concatenateJs = 0
     concatenateCss = 0
 
+    # enable speaking URLs
+    tx_realurl_enable = 1
+
     typolinkLinkAccessRestrictedPages = {$config.typolinkLinkAccessRestrictedPages}
     typolinkLinkAccessRestrictedPages_addParams = &return_url=###RETURN_URL###
 }
